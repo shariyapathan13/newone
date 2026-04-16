@@ -1,0 +1,20 @@
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git init
+Reinitialized existing Git repository in C:/Users/shariya.pathan/Desktop/Assignment1/.git/
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git checkout -b feature-branch-name
+Switched to a new branch 'feature-branch-name'
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git add .
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git commit -m "Add new feature files"
+On branch feature-branch-name
+nothing to commit, working tree clean
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git remote add origin https://github.com/shariyapathan13/featurebranch12.git
+error: remote origin already exists.
+PS C:\Users\shariya.pathan\Desktop\Assignment1> git push -u origin feature-branch-name
+Enumerating objects: 3, done.
+(from 0)
+remote:
+remote: Create a pull request for 'feature-branch-name' on GitHub by visiting:
+remote:      https://github.com/shariyapathan13/newone/pull/new/feature-branch-name
+remote:
+To https://github.com/shariyapathan13/newone.git
+ * [new branch]      feature-branch-name -> feature-branch-name
+branch 'feature-branch-name' set up to track 'origin/feature-branch-name'.
